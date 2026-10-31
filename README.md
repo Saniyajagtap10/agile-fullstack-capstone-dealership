@@ -1,6 +1,5 @@
-# Repository Name: agile-fullstack-capstone-dealership
-# Project Name: Cars Dealership Web Application
-
+# Repository Name: xrwvm-fullstack_developer_capstone
+# Project Name:Cars Dealership Web Application - fullstack_developer_capstone
 ## Overview
 A full-stack web application built for a national car retailer in the U.S. to view dealership branches and user reviews.
 
