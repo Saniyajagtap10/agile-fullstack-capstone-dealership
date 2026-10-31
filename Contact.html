@@ -3,17 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Us - Cars Dealership</title>
+    <!-- CSS Links -->
     <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a> | 
-        <a href="About.html">About Us</a> | 
-        <a href="Contact.html" class="active">Contact Us</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cars Dealership</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <h1>Contact Us</h1>
-    <p>Get in touch with Cars Dealership support.</p>
-    <p>Email: support@carsdealership.com</p>
-    <p>Phone: +1 (800) 555-CARS</p>
+
+    <div class="container mt-4">
+        <h1>Contact Us</h1>
+        <p class="lead">Get in touch with our team for any inquiries regarding car models, dealerships, or services.</p>
+        
+        <div class="card p-4 mt-3">
+            <h3>Customer Support</h3>
+            <p><strong>Phone:</strong> +1 (800) 555-CARS</p>
+            <p><strong>Email:</strong> support@carsdealership.com</p>
+            <p><strong>Address:</strong> 123 Automotive Way, Detroit, MI 48201, U.S.A.</p>
+        </div>
+    </div>
 </body>
 </html>
